@@ -1,0 +1,97 @@
+/* formNovela.module.css */
+
+.formContainer {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #b42c2c;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 60px; 
+  }
+  
+  .formTitle {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #4B0082; 
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+  }
+  
+  .formGroup {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formLabel {
+    font-size: 16px;
+    color: #4B0082; 
+    margin-bottom: 8px;
+  }
+  
+  .formControl {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ce0a0a;
+    border-radius: 5px;
+    background-color: #c73333;
+    transition: border 0.3s ease;
+  }
+  
+  .formControl:focus {
+    border: 2px solid #4B0082;
+    outline: none;
+  }
+  
+  .submitButton {
+    background-color: #4B0082;
+    color: rgb(163, 24, 24);
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  .submitButton:hover {
+    background-color: #3A006E; 
+  }
+  
+  .iconWrapper {
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 20px; 
+  }
+  
+  .uploadIcon {
+    color: #4B0082; 
+    transition: transform 0.3s ease;
+  }
+  
+  .uploadIcon:hover {
+    transform: scale(1.1); 
+  }
+  
+  /* Rodapé */
+  .custom-footer {
+    background-color: #741d1d42;
+    padding: 20px 0;
+    border-top: 1px solid #a81616;
+    width: 100%; 
+    position: relative;
+    bottom: 0;
+    text-align: center;
+  }
+  
+ 
+  
